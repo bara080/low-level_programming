@@ -1,0 +1,17 @@
+#!/bin/bash
+gcc -E $CFILE -o c
+
+
+/*
+ this is a script that runs a C File through the preprocessor and save the result into another file
+
+ the name of file should be $CFILE
+ the output should be saved in the file c
+  what is -e AND -o
+
+  FROM GCC --HELP
+  -E preprocess only, and -o place the output into a file 
+  
+
+
+ */

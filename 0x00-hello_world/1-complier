@@ -1,0 +1,9 @@
+#!/bin/bash
+gcc -c $CFILE
+
+/*
+writing a script that complies a c file but does not link'
+ the c file name will be saved in the variable 4cfile
+ THE OUTPUT FILE SHOULD BE NAMED THE SAME AS THE C FILE, BUT WITHE THE EXTEsion .o istead of .c
+
+*/   
